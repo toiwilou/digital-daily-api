@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  php-dd:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./api:/var/www/html
+    environment:
+      APP_ENV: dev
