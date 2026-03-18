@@ -2,16 +2,18 @@
 
 namespace App\Entity;
 
-use App\Repository\CommandRepository;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
+use App\Repository\CommandRepository;
+use Symfony\Component\Serializer\Annotation\Groups;
 
+#[Groups(['command:read'])]
 #[ORM\Entity(repositoryClass: CommandRepository::class)]
 class Command
 {
     #[ORM\Id]
-    #[ORM\GeneratedValue]
     #[ORM\Column]
+    #[ORM\GeneratedValue]
     private ?int $id = null;
 
     #[ORM\Column(nullable: true)]
