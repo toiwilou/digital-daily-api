@@ -37,7 +37,7 @@ class CommandService
             ->setFirstname($data['firstname'] ?? $command->getFirstname())
             ->setLastname($data['lastname'] ?? $command->getLastname())
             ->setEmail($data['email'] ?? $command->getEmail())
-            ->setSubject($data['object'] ?? $command->getSubject())
+            ->setSubject($data['subject'] ?? $command->getSubject())
             ->setMessage($data['message'] ?? $command->getMessage())
             ->setActive(true)
         ;
