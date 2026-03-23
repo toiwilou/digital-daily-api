@@ -25,8 +25,9 @@ class CommandService
         return $this->repository->getAll();
     }
 
-    public function persist(Request $request, Command $command): void
+    public function add(Request $request): void
     {
+        $command = new Command();
         $data = json_decode($request->getContent(), true);
         
         $command
@@ -36,23 +37,12 @@ class CommandService
             ->setFirstname($data['firstname'] ?? $command->getFirstname())
             ->setLastname($data['lastname'] ?? $command->getLastname())
             ->setEmail($data['email'] ?? $command->getEmail())
-            ->setEmail($data['email'] ?? $command->getEmail())
-            ->setObject($data['object'] ?? $command->getObject())
+            ->setSubject($data['object'] ?? $command->getSubject())
             ->setMessage($data['message'] ?? $command->getMessage())
-            ->setActive(!!$data['active'] ?? $command->isActive())
+            ->setActive(true)
         ;
 
         $this->entityManager->persist($command);
         $this->entityManager->flush();
-    }
-
-    public function add(Request $request): void
-    {
-        $this->persist($request, new Command());
-    }
-
-    public function edit(Request $request, Command $command): void
-    {
-        $this->persist($request, $command);
     }
 }

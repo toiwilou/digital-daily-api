@@ -2,7 +2,6 @@
 
 namespace App\Controller;
 
-use App\Entity\Command;
 use App\Helper\AppHelper;
 use App\Service\CommandService;
 use Symfony\Component\HttpFoundation\Request;
@@ -43,15 +42,5 @@ final class CommandController extends AbstractController
         $this->service->add($request);
 
         return new JsonResponse(201);
-    }
-
-    #[Route('/{id}', methods: ['PUT'])]
-    public function update(Request $request, Command|null $command): JsonResponse
-    {
-        if (!$command) return new JsonResponse(['error' => 'Not found'], 404);
-
-        $this->service->edit($request, $command);
-        
-        return new JsonResponse(200);
     }
 }
