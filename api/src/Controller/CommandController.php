@@ -12,7 +12,6 @@ use Symfony\Component\Security\Http\Attribute\IsGranted;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 #[Route('/api/commands')]
-#[IsGranted('ROLE_USER')]
 final class CommandController extends AbstractController
 {
     private $key;
@@ -28,6 +27,7 @@ final class CommandController extends AbstractController
         $this->service = $userService;
     }
 
+    #[IsGranted('ROLE_USER')]
     #[Route('', methods: ['GET'])]
     public function index(): JsonResponse
     {
