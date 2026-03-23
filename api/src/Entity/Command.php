@@ -35,7 +35,7 @@ class Command
     private ?string $email = null;
 
     #[ORM\Column(length: 255)]
-    private ?string $object = null;
+    private ?string $subject = null;
 
     #[ORM\Column(type: Types::TEXT)]
     private ?string $message = null;
@@ -120,14 +120,14 @@ class Command
         return $this;
     }
 
-    public function getObject(): ?string
+    public function getSubject(): ?string
     {
-        return $this->object;
+        return $this->subject;
     }
 
-    public function setObject(string $object): static
+    public function setSubject(string $subject): static
     {
-        $this->object = $object;
+        $this->subject = $subject;
 
         return $this;
     }
