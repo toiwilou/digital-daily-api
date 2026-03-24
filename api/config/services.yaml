@@ -6,6 +6,7 @@
 parameters:
 
     # Constantes
+    base_email: "%env(DD_EMAIL)%"
     firstname: "%env(firstname)%"
     lastname: "%env(lastname)%"
     password: "%env(password)%"
