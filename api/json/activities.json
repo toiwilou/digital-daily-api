@@ -1,0 +1,43 @@
+
+{
+
+    "0": { "name": "Foot", "category": "SPORT", "icon": "futbol", "picture": "foot" },
+    "1": { "name": "Basket", "category": "SPORT", "icon": "basketball", "picture": "basket" },
+    "2": { "name": "Course", "category": "SPORT", "icon": "person-running", "picture": "course" },
+    "3": { "name": "Randonnée", "category": "SPORT", "icon": "person-hiking", "picture": "rendonee" },
+    "4": { "name": "Salle de sport", "category": "SPORT", "icon": "dumbbell", "picture": "salle" },
+    "5": { "name": "Yoga", "category": "SPORT", "icon": "child-reaching", "picture": "yoga" },
+    "6": { "name": "Vélo", "category": "SPORT", "icon": "person-biking", "picture": "velo" },
+
+    "7": { "name": "Jeux vidéo", "category": "LOISIR", "icon": "gamepad", "picture": "jeux_video" },
+    "8": { "name": "Jeux de société", "category": "LOISIR", "icon": "chess-board", "picture": "jeux_societe" },
+    "9": { "name": "Karaoké", "category": "LOISIR", "icon": "microphone-lines", "picture": "karaoke" },
+    "10": { "name": "Bowling", "category": "LOISIR", "icon": "bowling-ball", "picture": "bowling" },
+    
+    "11": { "name": "Révisions en groupe", "category": "ETUDE", "icon": "users-gear", "picture": "revisions_groupe" },
+    "12": { "name": "Aide aux devoirs", "category": "ETUDE", "icon": "book-open-reader", "picture": "aides_devoirs" },
+    "13": { "name": "Coworking", "category": "ETUDE", "icon": "house-laptop", "picture": "coworking" },
+    "14": { "name": "Soirées étudiantes", "category": "ETUDE", "icon": "user-graduate", "picture": "soiree_etudiante" },
+
+    "15": { "name": "Déménagement", "category": "SERVICE", "icon": "people-carry-box", "picture": "demenagement" },
+    "16": { "name": "Montage de meubles", "category": "SERVICE", "icon": "couch", "picture": "montage_meuble" },
+    "17": { "name": "Bricolage", "category": "SERVICE", "icon": "screwdriver-wrench", "picture": "bricolage" },
+    "18": { "name": "Ménage", "category": "SERVICE", "icon": "trash", "picture": "menage" },
+    "19": { "name": "Jardinage", "category": "SERVICE", "icon": "plant-wilt", "picture": "jardinage" },
+    "20": { "name": "Développement informatique", "category": "SERVICE", "icon": "laptop-code", "picture": "dev" },
+
+    "21": { "name": "Sortie nocturne", "category": "SORTIE", "icon": "circle-half-stroke", "picture": "nocturne" },
+    "22": { "name": "Cinéma", "category": "SORTIE", "icon": "film", "picture": "cinema" },
+    "23": { "name": "Restaurant", "category": "SORTIE", "icon": "utensils", "picture": "restaurant" },
+    "24": { "name": "Événement", "category": "SORTIE", "icon": "ticket", "picture": "evenement" },
+
+    "25": { "name": "Musique", "category": "CREATIF", "icon": "music", "picture": "musique" },
+    "26": { "name": "Tournage vidéo", "category": "CREATIF", "icon": "clapperboard", "picture": "tournage_video" },
+    "27": { "name": "Photo shooting", "category": "CREATIF", "icon": "camera-retro", "picture": "shooting" },
+    "28": { "name": "Danse", "category": "CREATIF", "icon": "person-falling-burst", "picture": "dense" },
+    "29": { "name": "Dessin", "category": "CREATIF", "icon": "palette", "picture": "dessin" },
+
+    "30": { "name": "Méditation", "category": "BIEN ÊTRE", "icon": "person", "picture": "meditation" },
+    "31": { "name": "Groupes de discussion", "category": "BIEN ÊTRE", "icon": "users", "picture": "groupe_discussion" }
+
+}

@@ -1,0 +1,14 @@
+{
+    "0": {
+        "name": "EN ATTENTE",
+        "color": "#d1c452"
+    },
+    "1": {
+        "name": "VÉRIFIÉ",
+        "color": "#22ba69"
+    },
+    "2": {
+        "name": "NON VÉRIFIÉ",
+        "color": "#e66a6a"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "0": {
+        "name": "EN ATTENTE",
+        "color": "#d1c452"
+    },
+    "1": {
+        "name": "ACCEPTÉE",
+        "color": "#22ba69"
+    },
+    "2": {
+        "name": "RÉFUSÉE",
+        "color": "#e66a6a"
+    }
+}
